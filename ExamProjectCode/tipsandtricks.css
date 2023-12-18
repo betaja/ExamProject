@@ -1,0 +1,243 @@
+/*CSS STYLESHEET FOR ALL THE INFORMATION THAT APPEARS ON THE TIPS & TRICKS PAGE*/
+
+/*SCREEN SIZE DESKTOP - W=1920, H=1080 AND MOBILE - W=375, H=667*/
+
+/* COLORS AND FONTS */
+    * {
+        --darkblue: #0C2339;
+        --darkgray: #2C2C2C;
+        --gray: #878787;
+        --white: #F0F0F0;
+        --black: #000000;
+        --pink: #D1817B;
+        --gray: #D9D9D9;
+        font-family: 'Comfortaa', sans-serif;
+        font-family: 'Handjet', sans-serif;
+    
+      
+/*PAGE FORMATING*/
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0px;
+      }
+
+
+/*FONT APPLIED TO SPECIFIC ELEMENTS*/
+/*SMALL TITLE*/
+.small-title {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold; /*700*/
+    font-size: 30px;
+    color: var(--white);
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
+/*DESCRIPTION*/
+    .intro-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: normal; /*400*/
+    font-size: 19px;
+    color: var(--white);
+    line-height: 1.5;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 30px;
+  }
+
+/*TIPS DESCRIPTION TEXTS*/
+.intro-text1 {
+    width: 88%;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: normal; /*400*/
+    font-size: 19px;
+    color: var(--white);
+    line-height: 1.5;
+    text-decoration: none;
+    margin-right: 30px;
+    float: right;
+  }
+
+/*NUMBERS*/
+    .numbers {
+    width: 5%;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: normal;
+    font-size: 79px;
+    color: var(--white);
+    line-height: 1.5;
+    text-decoration: none;
+    margin-left: 60px;
+    float: left;
+    }
+
+/*TIPS TITLE*/
+    .small-title {
+        width: 90%;
+        float: right;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 30px;
+        color: var(--white);
+        float: right
+      }
+
+
+/*TITLES*/
+    .title-text {
+    font-family: 'Handjet', sans-serif;
+    font-weight: bold; /*700*/
+    font-size: 79px;
+    color: var(--white);
+    letter-spacing: 30px;
+    word-spacing: 10px;
+    text-decoration: none;
+    margin-left: 60px;
+  }
+
+  .logo {
+    width: 239px;
+    height: 101.64px;
+  }
+
+
+
+
+/*------------------------------------RESPONSIVE DESIGN FOR MOBILE----------------------------------*/
+@media only screen and (max-width: 391px) { 
+/*PAGE FORMATING*/
+* {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 0px;
+    }
+
+  /*LOGO*/
+  .logo {
+    width: 19.9px;
+    height: 8.5px;
+}
+
+/*TEXT*/
+/*DESCRIPTION TEXTS*/
+    .intro-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: normal;
+    font-size: 6px;
+    color: var(--white);
+    line-height: 1.5;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 30px;
+    float: right
+  }
+
+  .numbers {
+    float: left;
+    width: 8%;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 30px;
+    color: var(--white);
+    margin-left: 20px
+  }
+
+  .small-title {
+    width: 81%;
+    float: right;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 10px;
+    color: var(--white);
+  }
+
+  .intro-text1 {
+    width: 74%; /* Adjust the width as needed */
+    float: right;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 6px;
+    color: var(--white);
+    margin-right: 25px;
+  }
+
+/*TITLES*/
+.title-text {
+    font-family: 'Handjet', sans-serif;
+    font-weight: bold; /*700*/
+    font-size: 39px;
+    color: var(--white);
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  /*FOOTER TEXT*/
+.footer-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: normal; /*400*/
+    font-size: 2px;
+    color: var(--white);
+    text-align: center;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+/*FOOTER TEXT*/
+.footer-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: normal;
+    font-size: 3px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+  }
+}
+
+
+
+
+
+/*TOP RIGHT ICONS*/
+.top-right-icons img {
+  width: 56px;
+height: 56px;
+}
+.top-right-icons {
+  position: absolute;
+  cursor: pointer;
+  top: 40px;
+  right: 40px;
+  display: flex;
+  gap: 75px
+}
+
+/*BACK BUTTON STYLING*/
+.back-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: Comfortaa, sans-serif;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  justify-content: right;
+  vertical-align: top;
+  display: inline-block;
+  position: absolute;
+  top: 170px;
+  right: 40px;
+  text-decoration: none;
+}
+
+/*FOOTER TEXT*/
+.footer-text {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: normal; /*400*/
+  font-size: 15px;
+  color: var(--white);
+  text-align: center;
+  line-height: 2;
+  text-decoration: none;
+}
